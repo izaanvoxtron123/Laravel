@@ -1,0 +1,30 @@
+{
+    "authHost": "https://portai.voxaccess.net",
+    "authEndpoint": "/broadcasting/auth",
+    "clients": [],
+    "database": "sqlite",
+    "databaseConfig": {
+        "sqlite": {
+            "databasePath": "database/laravel-echo-server.sqlite"
+        }
+    },
+    "devMode": false,
+    "host": "0.0.0.0",
+    "port": 6001,
+    "protocol": "https",
+    "socketio": {},
+    "secureOptions": 67108864,
+    "sslCertPath": "/etc/ssl/certs/voxaccess.net.pem",
+    "sslKeyPath": "/etc/ssl/certs/voxaccess.net.key",
+    "sslPassphrase": "",
+    "subscribers": {
+        "http": false,
+        "redis": false
+    },
+    "apiOriginAllow": {
+        "allowCors": true,
+        "authHost": "https://portai.voxaccess.net",
+        "allowMethods": "GET, POST",
+        "allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization"
+    }
+}
